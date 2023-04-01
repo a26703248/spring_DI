@@ -16,7 +16,9 @@ dependencies {
     implementation 'org.springframework:spring-context:5.3.18'
     implementation 'org.springframework:spring-core:5.3.18'
     implementation 'org.springframework:spring-webmvc:5.3.18'
-
+    implementation 'javax.inject:javax.inject:1'
+    implementation 'c3p0:c3p0:0.9.1.2'
+    implementation 'com.mysql:mysql-connector-j:8.0.31'
 }
 
 test {
